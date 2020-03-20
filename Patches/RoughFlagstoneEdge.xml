@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationAdd">
+  <xpath>Defs/TerrainDef[@Name="FlagstoneBase"]</xpath>
+  <value>
+    <edgeType>FadeRough</edgeType>
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/TerrainDef[@Name="FlagstoneBase"]/renderPrecedence</xpath>
+  <value>
+    <renderPrecedence>80</renderPrecedence>
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/TerrainDef[defName="Marsh"]/texturePath</xpath>
+  <value>
+    <texturePath>Terrain/Surfaces/Marsh</texturePath>
+  </value>
+</Operation>
+</Patch>

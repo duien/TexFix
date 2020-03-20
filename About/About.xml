@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>TexFix</name>
+	<author>Duien</author>
+	<supportedVersions>
+    <li>1.1</li>
+  </supportedVersions>
+	<description>
+    This mod swaps out textures
+	</description>
+  <packageId>duien.TexFix</packageId>
+</ModMetaData>

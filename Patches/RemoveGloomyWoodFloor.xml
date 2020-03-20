@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>GloomyFurniture</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Normal</success>
+			<operations>
+				<li Class="PatchOperationRemove">
+          <xpath>Defs/TerrainDef[defName="RGK_Terrain"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/TerrainDef[defName="GL_Terrain"]</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

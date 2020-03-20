@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <DesignatorDropdownGroupDef>
+        <defName>Floor_WoodPlankVertical</defName>
+    </DesignatorDropdownGroupDef>
+
+    <TerrainDef Name="FloorBaseVertical" Abstract="True">
+    <layerable>true</layerable>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+    </affordances>
+    <tags>
+      <li>Floor</li>
+    </tags>
+    <designationCategory>Floors</designationCategory>
+    <fertility>0</fertility>
+    <constructEffect>ConstructDirt</constructEffect>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+  </TerrainDef>
+
+  <TerrainDef  ParentName="FloorBase">
+    <defName>WoodPlankFloorVertical</defName>
+    <label>wood floor</label>
+    <renderPrecedence>250</renderPrecedence>
+    <description>Wood vertical plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.</description>
+    <texturePath>Terrain/Surfaces/WoodFloorVertical</texturePath>
+    <burnedDef>BurnedWoodPlankFloor</burnedDef>
+    <color>(108,78,55)</color>
+    <statBases>
+      <WorkToBuild>85</WorkToBuild>
+      <Flammability>0.22</Flammability>
+    </statBases>
+    <costList>
+      <WoodLog>3</WoodLog>
+    </costList>
+    <constructEffect>ConstructWood</constructEffect>
+    <designatorDropdown>Floor_WoodPlankVertical</designatorDropdown>
+  </TerrainDef>
+
+<TerrainDef ParentName="FloorBase">
+  <defName>WoodPlankFloorVertical_Birch</defName>
+  <label>birch wood floor</label>
+  <renderPrecedence>250</renderPrecedence>
+  <description>Birch vertical plank flooring. For that warm, homey feeling.</description>
+  <texturePath>Floor/WoodFloorBaseVertical</texturePath>
+  <burnedDef>BurnedWoodPlankFloor</burnedDef>
+  <color>(235,228,216)</color>
+  <statBases>
+    <WorkToBuild>85</WorkToBuild>
+    <Flammability>0.22</Flammability>
+    <Beauty>1.5</Beauty>
+  </statBases>
+  <constructEffect>ConstructWood</constructEffect>
+  <designatorDropdown>Floor_WoodPlankVertical</designatorDropdown>
+  <costList>
+    <WoodLog_Birch>3</WoodLog_Birch>
+  </costList>
+</TerrainDef>
+<TerrainDef ParentName="FloorBase">
+  <defName>WoodPlankFloorVertical_Cecropia</defName>
+  <label>cecropia wood floor</label>
+  <renderPrecedence>250</renderPrecedence>
+  <description>Cecropia vertical plank flooring. For that warm, homey feeling.</description>
+  <texturePath>Floor/WoodFloorBaseVertical</texturePath>
+  <burnedDef>BurnedWoodPlankFloor</burnedDef>
+  <color>(126,74,63)</color>
+  <statBases>
+    <WorkToBuild>85</WorkToBuild>
+    <Flammability>0.22</Flammability>
+    <Beauty>1</Beauty>
+  </statBases>
+  <constructEffect>ConstructWood</constructEffect>
+  <designatorDropdown>Floor_WoodPlankVertical</designatorDropdown>
+  <costList>
+    <WoodLog_Cecropia>3</WoodLog_Cecropia>
+  </costList>
+</TerrainDef>
+<TerrainDef ParentName="FloorBase">
+  <defName>WoodPlankFloorVertical_Cypress</defName>
+  <label>cypress wood floor</label>
+  <renderPrecedence>250</renderPrecedence>
+  <description>Cypress vertical plank flooring. For that warm, homey feeling.</description>
+  <texturePath>Floor/WoodFloorBaseVertical</texturePath>
+  <burnedDef>BurnedWoodPlankFloor</burnedDef>
+  <color>(239, 217, 184)</color>
+  <statBases>
+    <WorkToBuild>85</WorkToBuild>
+    <Flammability>0.22</Flammability>
+    <Beauty>2.5</Beauty>
+  </statBases>
+  <constructEffect>ConstructWood</constructEffect>
+  <designatorDropdown>Floor_WoodPlankVertical</designatorDropdown>
+  <costList>
+    <WoodLog_Cypress>3</WoodLog_Cypress>
+  </costList>
+</TerrainDef>
+<TerrainDef ParentName="FloorBase">
+  <defName>WoodPlankFloorVertical_Drago</defName>
+  <label>drago wood floor</label>
+  <renderPrecedence>250</renderPrecedence>
+  <description>Drago vertical plank flooring. For that warm, homey feeling.</description>
+  <texturePath>Floor/WoodFloorBaseVertical</texturePath>
+  <burnedDef>BurnedWoodPlankFloor</burnedDef>
+  <color>(171, 159, 142)</color>
+  <statBases>
+    <WorkToBuild>85</WorkToBuild>
+    <Flammability>0.22</Flammability>
+    <Beauty>0.5</Beauty>
+  </statBases>
+  <constructEffect>ConstructWood</constructEffect>
+  <costList>
+    <WoodLog_Drago>3</WoodLog_Drago>
+  </costList>
+  <designatorDropdown>Floor_WoodPlankVertical</designatorDropdown>
+</TerrainDef>
+<TerrainDef ParentName="FloorBase">
+  <defName>WoodPlankFloorVertical_Maple</defName>
+  <label>maple wood floor</label>
+  <renderPrecedence>250</renderPrecedence>
+  <description>Maple vertical plank flooring. For that warm, homey feeling.</description>
+  <texturePath>Floor/WoodFloorBaseVertical</texturePath>
+  <burnedDef>BurnedWoodPlankFloor</burnedDef>
+  <color>(236, 201, 163)</color>
+  <statBases>
+    <WorkToBuild>85</WorkToBuild>
+    <Flammability>0.22</Flammability>
+    <Beauty>1.5</Beauty>
+  </statBases>
+  <constructEffect>ConstructWood</constructEffect>
+  <costList>
+    <WoodLog_Maple>3</WoodLog_Maple>
+  </costList>
+  <designatorDropdown>Floor_WoodPlankVertical</designatorDropdown>
+</TerrainDef>
+<TerrainDef ParentName="FloorBase">
+  <defName>WoodPlankFloorVertical_Oak</defName>
+  <label>oak wood floor</label>
+  <renderPrecedence>250</renderPrecedence>
+  <description>Oak vertical plank flooring. For that warm, homey feeling.</description>
+  <texturePath>Floor/WoodFloorBaseVertical</texturePath>
+  <burnedDef>BurnedWoodPlankFloor</burnedDef>
+  <color>(185,142,96)</color>
+  <statBases>
+    <WorkToBuild>85</WorkToBuild>
+    <Flammability>0.22</Flammability>
+    <Beauty>2.5</Beauty>
+  </statBases>
+  <constructEffect>ConstructWood</constructEffect>
+  <designatorDropdown>Floor_WoodPlankVertical</designatorDropdown>
+  <costList>
+    <WoodLog_Oak>3</WoodLog_Oak>
+  </costList>
+</TerrainDef>
+<TerrainDef ParentName="FloorBase">
+  <defName>WoodPlankFloorVertical_Palm</defName>
+  <label>palm wood floor</label>
+  <renderPrecedence>250</renderPrecedence>
+  <description>Palm vertical plank flooring. For that warm, homey feeling.</description>
+  <texturePath>Floor/WoodFloorBaseVertical</texturePath>
+  <burnedDef>BurnedWoodPlankFloor</burnedDef>
+  <color>(224, 150, 87)</color>
+  <statBases>
+    <WorkToBuild>85</WorkToBuild>
+    <Flammability>0.22</Flammability>
+    <Beauty>1.5</Beauty>
+  </statBases>
+  <constructEffect>ConstructWood</constructEffect>
+  <designatorDropdown>Floor_WoodPlankVertical</designatorDropdown>
+  <costList>
+    <WoodLog_Palm>3</WoodLog_Palm>
+  </costList>
+</TerrainDef>
+<TerrainDef ParentName="FloorBase">
+  <defName>WoodPlankFloorVertical_Pine</defName>
+  <label>pine wood floor</label>
+  <renderPrecedence>250</renderPrecedence>
+  <description>Pine vertical plank flooring. For that warm, homey feeling.</description>
+  <texturePath>Floor/WoodFloorBaseVertical</texturePath>
+  <burnedDef>BurnedWoodPlankFloor</burnedDef>
+  <color>(198,146,68)</color>
+  <statBases>
+    <WorkToBuild>85</WorkToBuild>
+    <Flammability>0.22</Flammability>
+    <Beauty>1.5</Beauty>
+  </statBases>
+  <constructEffect>ConstructWood</constructEffect>
+  <costList>
+    <WoodLog_Pine>3</WoodLog_Pine>
+  </costList>
+  <designatorDropdown>Floor_WoodPlankVertical</designatorDropdown>
+</TerrainDef>
+<TerrainDef ParentName="FloorBase">
+  <defName>WoodPlankFloorVertical_Poplar</defName>
+  <label>poplar wood floor</label>
+  <renderPrecedence>250</renderPrecedence>
+  <description>Poplar vertical plank flooring. For that warm, homey feeling.</description>
+  <texturePath>Floor/WoodFloorBaseVertical</texturePath>
+  <burnedDef>BurnedWoodPlankFloor</burnedDef>
+  <color>(184,156,108)</color>
+  <statBases>
+    <WorkToBuild>85</WorkToBuild>
+    <Flammability>0.22</Flammability>
+    <Beauty>1.5</Beauty>
+  </statBases>
+  <constructEffect>ConstructWood</constructEffect>
+  <designatorDropdown>Floor_WoodPlankVertical</designatorDropdown>
+  <costList>
+    <WoodLog_Poplar>3</WoodLog_Poplar>
+  </costList>
+</TerrainDef>
+<TerrainDef ParentName="FloorBase">
+  <defName>WoodPlankFloorVertical_Teak</defName>
+  <label>teak wood floor</label>
+  <renderPrecedence>250</renderPrecedence>
+  <description>Teak vertical plank flooring. For that warm, homey feeling.</description>
+  <texturePath>Floor/WoodFloorBaseVertical</texturePath>
+  <burnedDef>BurnedWoodPlankFloor</burnedDef>
+  <color>(154,102,59)</color>
+  <statBases>
+    <WorkToBuild>85</WorkToBuild>
+    <Flammability>0.22</Flammability>
+    <Beauty>2.5</Beauty>
+  </statBases>
+  <constructEffect>ConstructWood</constructEffect>
+  <costList>
+    <WoodLog_Teak>3</WoodLog_Teak>
+  </costList>
+  <designatorDropdown>Floor_WoodPlankVertical</designatorDropdown>
+</TerrainDef>
+<TerrainDef ParentName="FloorBase">
+  <defName>WoodPlankFloorVertical_Willow</defName>
+  <label>willow wood floor</label>
+  <renderPrecedence>250</renderPrecedence>
+  <description>Willow vertical plank flooring. For that warm, homey feeling.</description>
+  <texturePath>Floor/WoodFloorBaseVertical</texturePath>
+  <burnedDef>BurnedWoodPlankFloor</burnedDef>
+  <color>(221, 186, 141)</color>
+  <statBases>
+    <WorkToBuild>85</WorkToBuild>
+    <Flammability>0.22</Flammability>
+    <Beauty>0.5</Beauty>
+  </statBases>
+  <constructEffect>ConstructWood</constructEffect>
+  <designatorDropdown>Floor_WoodPlankVertical</designatorDropdown>
+  <costList>
+    <WoodLog_Willow>3</WoodLog_Willow>
+  </costList>
+</TerrainDef>
+<TerrainDef ParentName="FloorBase">
+  <defName>WoodPlankFloorVertical_Red</defName>
+  <label>red painted wood floor</label>
+  <renderPrecedence>250</renderPrecedence>
+  <description>Red wood vertical plank flooring. For that warm, homey feeling.</description>
+  <texturePath>Floor/WoodFloorBaseVertical</texturePath>
+  <burnedDef>BurnedWoodPlankFloor</burnedDef>
+  <color>(159,23,18)</color>
+  <statBases>
+    <WorkToBuild>85</WorkToBuild>
+    <Flammability>0.22</Flammability>
+    <Beauty>2</Beauty>
+  </statBases>
+  <constructEffect>ConstructWood</constructEffect>
+  <designatorDropdown>Floor_WoodPlankVertical</designatorDropdown>
+  <costList>
+    <WoodLog_Red>3</WoodLog_Red>
+  </costList>
+</TerrainDef>
+<TerrainDef ParentName="FloorBase">
+  <defName>WoodPlankFloorVertical_Green</defName>
+  <label>green painted wood floor</label>
+  <renderPrecedence>250</renderPrecedence>
+  <description>Green wood vertical plank flooring. For that warm, homey feeling.</description>
+  <texturePath>Floor/WoodFloorBaseVertical</texturePath>
+  <burnedDef>BurnedWoodPlankFloor</burnedDef>
+  <color>(31,71,35)</color>
+  <statBases>
+    <WorkToBuild>85</WorkToBuild>
+    <Flammability>0.22</Flammability>
+    <Beauty>2</Beauty>
+  </statBases>
+  <constructEffect>ConstructWood</constructEffect>
+  <costList>
+    <WoodLog_Green>3</WoodLog_Green>
+  </costList>
+  <designatorDropdown>Floor_WoodPlankVertical</designatorDropdown>
+</TerrainDef>
+<TerrainDef ParentName="FloorBase">
+  <defName>WoodPlankFloorVertical_Blue</defName>
+  <label>blue painted wood floor</label>
+  <renderPrecedence>250</renderPrecedence>
+  <description>Blue wood vertical plank flooring. For that warm, homey feeling.</description>
+  <texturePath>Floor/WoodFloorBaseVertical</texturePath>
+  <burnedDef>BurnedWoodPlankFloor</burnedDef>
+  <color>(25,132,255)</color>
+  <statBases>
+    <WorkToBuild>85</WorkToBuild>
+    <Flammability>0.22</Flammability>
+    <Beauty>2</Beauty>
+  </statBases>
+  <constructEffect>ConstructWood</constructEffect>
+  <costList>
+    <WoodLog_Blue>3</WoodLog_Blue>
+  </costList>
+  <designatorDropdown>Floor_WoodPlankVertical</designatorDropdown>
+</TerrainDef>
+<TerrainDef ParentName="FloorBase">
+  <defName>WoodPlankFloorVertical_Yellow</defName>
+  <label>yellow painted wood floor</label>
+  <renderPrecedence>250</renderPrecedence>
+  <description>Yellow wood vertical plank flooring. For that warm, homey feeling.</description>
+  <texturePath>Floor/WoodFloorBaseVertical</texturePath>
+  <burnedDef>BurnedWoodPlankFloor</burnedDef>
+  <color>(232,215,137)</color>
+  <statBases>
+    <WorkToBuild>85</WorkToBuild>
+    <Flammability>0.22</Flammability>
+    <Beauty>2</Beauty>
+  </statBases>
+  <constructEffect>ConstructWood</constructEffect>
+  <costList>
+    <WoodLog_Yellow>3</WoodLog_Yellow>
+  </costList>
+  <designatorDropdown>Floor_WoodPlankVertical</designatorDropdown>
+</TerrainDef>
+<TerrainDef ParentName="FloorBase">
+  <defName>WoodPlankFloorVertical_White</defName>
+  <label>white painted wood floor</label>
+  <renderPrecedence>250</renderPrecedence>
+  <description>White wood vertical plank flooring. For that warm, homey feeling.</description>
+  <texturePath>Floor/WoodFloorBaseVertical</texturePath>
+  <burnedDef>BurnedWoodPlankFloor</burnedDef>
+  <color>(225,232,237)</color>
+  <statBases>
+    <WorkToBuild>85</WorkToBuild>
+    <Flammability>0.22</Flammability>
+    <Beauty>2</Beauty>
+  </statBases>
+  <constructEffect>ConstructWood</constructEffect>
+  <designatorDropdown>Floor_WoodPlankVertical</designatorDropdown>
+  <costList>
+    <WoodLog_White>3</WoodLog_White>
+  </costList>
+</TerrainDef>
+<TerrainDef ParentName="FloorBase">
+  <defName>WoodPlankFloorVertical_Black</defName>
+  <label>black painted wood floor</label>
+  <renderPrecedence>250</renderPrecedence>
+  <description>Black wood vertical vertical plank flooring. For that warm, homey feeling.</description>
+  <texturePath>Floor/WoodFloorBaseVertical</texturePath>
+  <burnedDef>BurnedWoodPlankFloor</burnedDef>
+  <color>(10,10,10)</color>
+  <statBases>
+    <WorkToBuild>85</WorkToBuild>
+    <Flammability>0.22</Flammability>
+    <Beauty>2</Beauty>
+  </statBases>
+  <constructEffect>ConstructWood</constructEffect>
+  <designatorDropdown>Floor_WoodPlankVertical</designatorDropdown>
+  <costList>
+    <WoodLog_Black>3</WoodLog_Black>
+  </costList>
+</TerrainDef>
+</Defs>

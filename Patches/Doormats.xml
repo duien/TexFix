@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--If SYR Doormats are installed allow building out of fabric -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[SYR] Doormats</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Normal</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="DoorMatLeather"]/stuffCategories</xpath>
+          <value>
+							<li>Fabric</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="DoorMatMediumLeather"]/stuffCategories</xpath>
+					<value>
+							<li>Fabric</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="DoorMatBigLeather"]/stuffCategories</xpath>
+					<value>
+							<li>Fabric</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
