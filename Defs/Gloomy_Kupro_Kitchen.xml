@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TerrainDef ParentName="KitchenTileBase">
+    <defName>AndesiteKitchenTile</defName>
+    <label>andesite kitchen floor</label>
+    <color>(112,118,118)</color>
+    <costList>
+      <BlocksAndesite>4</BlocksAndesite>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="KitchenTileBase">
+    <defName>AnorthositeKitchenTile</defName>
+    <label>anorthosite kitchen floor</label>
+    <color>(158,139,132)</color>
+    <costList>
+      <BlocksAnorthosite>4</BlocksAnorthosite>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="KitchenTileBase">
+    <defName>BasaltKitchenTile</defName>
+    <label>basalt kitchen floor</label>
+    <color>(73,77,79)</color>
+    <costList>
+      <BlocksBasalt>4</BlocksBasalt>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="KitchenTileBase">
+    <defName>BlueschistKitchenTile</defName>
+    <label>blueschist kitchen floor</label>
+    <color>(159,191,214)</color>
+    <costList>
+      <BlocksBlueschist>4</BlocksBlueschist>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="KitchenTileBase">
+    <defName>ChalkKitchenTile</defName>
+    <label>chalk kitchen floor</label>
+    <color>(220,220,220)</color>
+    <costList>
+      <BlocksChalk>4</BlocksChalk>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="KitchenTileBase">
+    <defName>CharnockiteKitchenTile</defName>
+    <label>charnockite kitchen floor</label>
+    <color>(141,120,79)</color>
+    <costList>
+      <BlocksCharnockite>4</BlocksCharnockite>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="KitchenTileBase">
+    <defName>CreoleMarbleKitchenTile</defName>
+    <label>creole marble kitchen floor</label>
+    <color>(174,211,210)</color>
+    <costList>
+      <BlocksCreoleMarble>4</BlocksCreoleMarble>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="KitchenTileBase">
+    <defName>DaciteKitchenTile</defName>
+    <label>dacite kitchen floor</label>
+    <color>(177,178,172)</color>
+    <costList>
+      <BlocksDacite>4</BlocksDacite>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="KitchenTileBase">
+    <defName>DuniteKitchenTile</defName>
+    <label>dunite Pebble</label>
+    <color>(153,176,110)</color>
+    <costList>
+      <BlocksDunite>4</BlocksDunite>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="KitchenTileBase">
+    <defName>EmperadordarkKitchenTile</defName>
+    <label>emperador dark Pebble</label>
+    <color>(72,46,38)</color>
+    <costList>
+      <BlocksEmperadordark>4</BlocksEmperadordark>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="KitchenTileBase">
+    <defName>EtowahMarbleKitchenTile</defName>
+    <label>etowah marble Pebble</label>
+    <color>(246,200,184)</color>
+    <costList>
+      <BlocksEtowahMarble>4</BlocksEtowahMarble>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="KitchenTileBase">
+    <defName>GreenGabbroKitchenTile</defName>
+    <label>green gabbro Pebble</label>
+    <color>(82,85,66)</color>
+    <costList>
+      <BlocksGreenGabbro>4</BlocksGreenGabbro>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="KitchenTileBase">
+    <defName>GreenSchistKitchenTile</defName>
+    <label>greenSchist kitchen floor</label>
+    <color>(82,98,71)</color>
+    <costList>
+      <BlocksGreenSchist>4</BlocksGreenSchist>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="KitchenTileBase">
+    <defName>JaspilliteKitchenTile</defName>
+    <label>jaspillite kitchen floor</label>
+    <color>(208,103,84)</color>
+    <costList>
+      <BlocksJaspillite>4</BlocksJaspillite>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="KitchenTileBase">
+    <defName>LepidoliteKitchenTile</defName>
+    <label>lepidolite kitchen floor</label>
+    <color>(124,92,111)</color>
+    <costList>
+      <BlocksLepidolite>4</BlocksLepidolite>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="KitchenTileBase">
+    <defName>LherzoliteKitchenTile</defName>
+    <label>lherzolite kitchen floor</label>
+    <color>(150,176,81)</color>
+    <costList>
+      <BlocksLherzolite>4</BlocksLherzolite>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="KitchenTileBase">
+    <defName>LigniteKitchenTile</defName>
+    <label>lignite kitchen floor</label>
+    <color>(82,72,70)</color>
+    <costList>
+      <BlocksLignite>4</BlocksLignite>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="KitchenTileBase">
+    <defName>MigmatiteKitchenTile</defName>
+    <label>migmatite kitchen floor</label>
+    <color>(136,146,155)</color>
+    <costList>
+      <BlocksMigmatite>4</BlocksMigmatite>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="KitchenTileBase">
+    <defName>MonzoniteKitchenTile</defName>
+    <label>monzonite kitchen floor</label>
+    <color>(193,184,186)</color>
+    <costList>
+      <BlocksMonzonite>4</BlocksMonzonite>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="KitchenTileBase">
+    <defName>ObsidianKitchenTile</defName>
+    <label>obsidian kitchen floor</label>
+    <color>(30,30,30)</color>
+    <costList>
+      <BlocksObsidian>4</BlocksObsidian>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="KitchenTileBase">
+    <defName>RhyoliteKitchenTile</defName>
+    <label>rhyolite kitchen floor</label>
+    <color>(201,159,134)</color>
+    <costList>
+      <BlocksRhyolite>4</BlocksRhyolite>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="KitchenTileBase">
+    <defName>ScoriaKitchenTile</defName>
+    <label>scoria kitchen floor</label>
+    <color>(87,80,73)</color>
+    <costList>
+      <BlocksScoria>4</BlocksScoria>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="KitchenTileBase">
+    <defName>SerpentiniteKitchenTile</defName>
+    <label>serpentinite kitchen floor</label>
+    <color>(60,96,58)</color>
+    <costList>
+      <BlocksSerpentinite>4</BlocksSerpentinite>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="KitchenTileBase">
+    <defName>SiltstoneKitchenTile</defName>
+    <label>siltstone kitchen floor</label>
+    <color>(167,146,117)</color>
+    <costList>
+      <BlocksSiltstone>4</BlocksSiltstone>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="KitchenTileBase">
+    <defName>SoviteKitchenTile</defName>
+    <label>sovite kitchen floor</label>
+    <color>(187,181,135)</color>
+    <costList>
+      <BlocksSovite>4</BlocksSovite>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="KitchenTileBase">
+    <defName>ThometzekiteKitchenTile</defName>
+    <label>thometzekite kitchen floor</label>
+    <color>(180,213,197)</color>
+    <costList>
+      <BlocksThometzekite>4</BlocksThometzekite>
+    </costList>
+  </TerrainDef>
+</Defs>
