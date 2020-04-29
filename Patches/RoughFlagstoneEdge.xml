@@ -12,10 +12,4 @@
     <renderPrecedence>80</renderPrecedence>
   </value>
 </Operation>
-<Operation Class="PatchOperationReplace">
-  <xpath>Defs/TerrainDef[defName="Marsh"]/texturePath</xpath>
-  <value>
-    <texturePath>Terrain/Surfaces/Marsh</texturePath>
-  </value>
-</Operation>
 </Patch>
