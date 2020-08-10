@@ -101,11 +101,11 @@
   </TerrainDef>
 
   <TerrainDef ParentName="PebbleBase">
-    <defName>PebbleGreenGabbro</defName>
-    <label>green gabbro Pebble</label>
+    <defName>PebbleGabbro</defName>
+    <label>gabbro Pebble</label>
     <color>(82,85,66)</color>
     <costList>
-      <BlocksGreenGabbro>4</BlocksGreenGabbro>
+      <BlocksGabbro>4</BlocksGabbro>
     </costList>
   </TerrainDef>
 

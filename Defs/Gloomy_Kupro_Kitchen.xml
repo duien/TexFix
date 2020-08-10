@@ -75,7 +75,7 @@
 
   <TerrainDef ParentName="KitchenTileBase">
     <defName>DuniteKitchenTile</defName>
-    <label>dunite Pebble</label>
+    <label>dunite kitchen floor</label>
     <color>(153,176,110)</color>
     <costList>
       <BlocksDunite>4</BlocksDunite>
@@ -84,7 +84,7 @@
 
   <TerrainDef ParentName="KitchenTileBase">
     <defName>EmperadordarkKitchenTile</defName>
-    <label>emperador dark Pebble</label>
+    <label>emperador dark kitchen floor</label>
     <color>(72,46,38)</color>
     <costList>
       <BlocksEmperadordark>4</BlocksEmperadordark>
@@ -93,7 +93,7 @@
 
   <TerrainDef ParentName="KitchenTileBase">
     <defName>EtowahMarbleKitchenTile</defName>
-    <label>etowah marble Pebble</label>
+    <label>etowah marble kitchen floor</label>
     <color>(246,200,184)</color>
     <costList>
       <BlocksEtowahMarble>4</BlocksEtowahMarble>
@@ -101,11 +101,11 @@
   </TerrainDef>
 
   <TerrainDef ParentName="KitchenTileBase">
-    <defName>GreenGabbroKitchenTile</defName>
-    <label>green gabbro Pebble</label>
+    <defName>GabbroKitchenTile</defName>
+    <label>gabbro kitchen floor</label>
     <color>(82,85,66)</color>
     <costList>
-      <BlocksGreenGabbro>4</BlocksGreenGabbro>
+      <BlocksGabbro>4</BlocksGabbro>
     </costList>
   </TerrainDef>
 
