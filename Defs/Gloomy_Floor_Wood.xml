@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <DesignatorDropdownGroupDef>
+		<defName>Floor_Wood_Horizontal</defName>
+	</DesignatorDropdownGroupDef>
+
+  <DesignatorDropdownGroupDef>
+		<defName>Floor_Wood_Vertical</defName>
+	</DesignatorDropdownGroupDef>
+
+  <TerrainDef Abstract="True" ParentName="FloorBase" Name="ExtendedWoodFloorBase">
+		<renderPrecedence>250</renderPrecedence>
+		<description>Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.</description>
+		<burnedDef>BurnedWoodPlankFloor</burnedDef>
+		<color>(108,78,55)</color>
+		<statBases>
+			<WorkToBuild>85</WorkToBuild>
+			<Flammability>0.2</Flammability>
+			<Beauty>1</Beauty>
+		</statBases>
+		<!-- <costList>
+			<WoodLog>3</WoodLog>
+		</costList> -->
+		<constructEffect>ConstructWood</constructEffect>
+		<designationHotKey>Misc7</designationHotKey>
+		<!-- <designatorDropdown>Floor_Wood</designatorDropdown> -->
+	</TerrainDef>
+
+  <TerrainDef Abstract="True" ParentName="ExtendedWoodFloorBase" Name="WoodFloorHorizontalBase">
+    <texturePath>Things/Building/GL_Terrain</texturePath>
+    <designatorDropdown>Floor_Wood_Horizontal</designatorDropdown>
+    <label>horizontal wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef Abstract="True" ParentName="ExtendedWoodFloorBase" Name="WoodFloorVerticalBase">
+    <texturePath>Things/Building/RGK_Terrain</texturePath>
+    <designatorDropdown>Floor_Wood_Vertical</designatorDropdown>
+    <label>vertical wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorHorizontalBase">
+    <defName>Floor_Wood_Horizontal_Mixed</defName>
+    <color>(133,97,67)</color>
+    <costList>
+			<WoodLog>3</WoodLog>
+		</costList>
+    <label>mixed wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorHorizontalBase">
+    <defName>Floor_Wood_Horizontal_Birch</defName>
+    <color>(251,217,172)</color>
+    <costList>
+			<LumberBirch>3</LumberBirch>
+		</costList>
+    <label>birch wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorHorizontalBase">
+    <defName>Floor_Wood_Horizontal_Palm</defName>
+    <color>(42,40,41)</color>
+    <costList>
+			<LumberPalm>3</LumberPalm>
+		</costList>
+    <label>palm wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorHorizontalBase">
+    <defName>Floor_Wood_Horizontal_Cecropia</defName>
+    <color>(123,47,24)</color>
+    <costList>
+			<LumberCecropia>3</LumberCecropia>
+		</costList>
+    <label>cecropia wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorHorizontalBase">
+    <defName>Floor_Wood_Horizontal_Cocoa</defName>
+    <color>(86,42,34)</color>
+    <costList>
+			<LumberCocoa>3</LumberCocoa>
+		</costList>
+    <label>cocoa wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorHorizontalBase">
+    <defName>Floor_Wood_Horizontal_Cypress</defName>
+    <color>(233,207,175)</color>
+    <costList>
+			<LumberCypress>3</LumberCypress>
+		</costList>
+    <label>cypress wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorHorizontalBase">
+    <defName>Floor_Wood_Horizontal_Drago</defName>
+    <color>(245,175,125)</color>
+    <costList>
+			<LumberDrago>3</LumberDrago>
+		</costList>
+    <label>drago wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorHorizontalBase">
+    <defName>Floor_Wood_Horizontal_Maple</defName>
+    <color>(211,186,159)</color>
+    <costList>
+			<LumberMaple>3</LumberMaple>
+		</costList>
+    <label>maple wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorHorizontalBase">
+    <defName>Floor_Wood_Horizontal_Oak</defName>
+    <color>(181,137,88)</color>
+    <costList>
+			<LumberOak>3</LumberOak>
+		</costList>
+    <label>oak wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorHorizontalBase">
+    <defName>Floor_Wood_Horizontal_Pine</defName>
+    <color>(241,190,133)</color>
+    <costList>
+			<LumberPine>3</LumberPine>
+		</costList>
+    <label>pine wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorHorizontalBase">
+    <defName>Floor_Wood_Horizontal_Poplar</defName>
+    <color>(207,174,129)</color>
+    <costList>
+			<LumberPoplar>3</LumberPoplar>
+		</costList>
+    <label>poplar wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorHorizontalBase">
+    <defName>Floor_Wood_Horizontal_Teak</defName>
+    <color>(120,86,51)</color>
+    <costList>
+			<LumberTeak>3</LumberTeak>
+		</costList>
+    <label>teak wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorHorizontalBase">
+    <defName>Floor_Wood_Horizontal_Willow</defName>
+    <color>(239,194,113)</color>
+    <costList>
+			<LumberWillow>3</LumberWillow>
+		</costList>
+    <label>willow wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorVerticalBase">
+    <defName>Floor_Wood_Vertical_Mixed</defName>
+    <color>(133,97,67)</color>
+    <costList>
+			<WoodLog>3</WoodLog>
+		</costList>
+    <label>mixed wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorVerticalBase">
+    <defName>Floor_Wood_Vertical_Birch</defName>
+    <color>(251,217,172)</color>
+    <costList>
+			<LumberBirch>3</LumberBirch>
+		</costList>
+    <label>birch wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorVerticalBase">
+    <defName>Floor_Wood_Vertical_Palm</defName>
+    <color>(42,40,41)</color>
+    <costList>
+			<LumberPalm>3</LumberPalm>
+		</costList>
+    <label>palm wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorVerticalBase">
+    <defName>Floor_Wood_Vertical_Cecropia</defName>
+    <color>(123,47,24)</color>
+    <costList>
+			<LumberCecropia>3</LumberCecropia>
+		</costList>
+    <label>cecropia wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorVerticalBase">
+    <defName>Floor_Wood_Vertical_Cocoa</defName>
+    <color>(86,42,34)</color>
+    <costList>
+			<LumberCocoa>3</LumberCocoa>
+		</costList>
+    <label>cocoa wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorVerticalBase">
+    <defName>Floor_Wood_Vertical_Cypress</defName>
+    <color>(233,207,175)</color>
+    <costList>
+			<LumberCypress>3</LumberCypress>
+		</costList>
+    <label>cypress wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorVerticalBase">
+    <defName>Floor_Wood_Vertical_Drago</defName>
+    <color>(245,175,125)</color>
+    <costList>
+			<LumberDrago>3</LumberDrago>
+		</costList>
+    <label>drago wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorVerticalBase">
+    <defName>Floor_Wood_Vertical_Maple</defName>
+    <color>(211,186,159)</color>
+    <costList>
+			<LumberMaple>3</LumberMaple>
+		</costList>
+    <label>maple wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorVerticalBase">
+    <defName>Floor_Wood_Vertical_Oak</defName>
+    <color>(181,137,88)</color>
+    <costList>
+			<LumberOak>3</LumberOak>
+		</costList>
+    <label>oak wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorVerticalBase">
+    <defName>Floor_Wood_Vertical_Pine</defName>
+    <color>(241,190,133)</color>
+    <costList>
+			<LumberPine>3</LumberPine>
+		</costList>
+    <label>pine wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorVerticalBase">
+    <defName>Floor_Wood_Vertical_Poplar</defName>
+    <color>(207,174,129)</color>
+    <costList>
+			<LumberPoplar>3</LumberPoplar>
+		</costList>
+    <label>poplar wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorVerticalBase">
+    <defName>Floor_Wood_Vertical_Teak</defName>
+    <color>(120,86,51)</color>
+    <costList>
+			<LumberTeak>3</LumberTeak>
+		</costList>
+    <label>teak wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorVerticalBase">
+    <defName>Floor_Wood_Vertical_Willow</defName>
+    <color>(239,194,113)</color>
+    <costList>
+			<LumberWillow>3</LumberWillow>
+		</costList>
+    <label>willow wood floor</label>
+  </TerrainDef>
+</Defs>
