@@ -4,6 +4,23 @@
 - Wood types for gloomy floors (didn't that used to work?)
   (yeah, there's patches for it, but they don't seem to be happening...)
 
+# Rimworld Mod Wants
+
+- Continue Gloomy integrations
+  - Xtra Trees/Flowers
+  - Draw new benches for woodworking
+  - Let Gloomy bookshelf be used for Human Resources
+- Update expanded storage for wood types
+- Support bamboo/ironwood better
+- Grab some textures from reskin mods
+  - Def. stonecutting
+- Reskin or tweak loom texture
+
+
+- Add appropriate mod checks to compat patches
+
+
+
 ## Reference
 
 LumberBirch (251,217,172) 3.0
