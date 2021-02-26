@@ -48,6 +48,15 @@
   </TerrainDef>
 
   <TerrainDef ParentName="WoodFloorHorizontalBase">
+    <defName>Floor_Wood_Horizontal_Bamboo</defName>
+    <color>(248,218,158)</color>
+    <costList>
+			<LumberBamboo>3</LumberBamboo>
+		</costList>
+    <label>bamboo wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorHorizontalBase">
     <defName>Floor_Wood_Horizontal_Birch</defName>
     <color>(251,217,172)</color>
     <costList>
@@ -162,6 +171,15 @@
 			<WoodLog>3</WoodLog>
 		</costList>
     <label>mixed wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorVerticalBase">
+    <defName>Floor_Wood_Vertical_Bamboo</defName>
+    <color>(248,218,158)</color>
+    <costList>
+			<LumberBamboo>3</LumberBamboo>
+		</costList>
+    <label>bamboo wood floor</label>
   </TerrainDef>
 
   <TerrainDef ParentName="WoodFloorVerticalBase">
