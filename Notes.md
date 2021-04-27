@@ -1,6 +1,6 @@
 # TODO
 
-√ Fine Tile w/ Kupro stones
+✔ Fine Tile w/ Kupro stones
 - Wood types for gloomy floors (didn't that used to work?)
   (yeah, there's patches for it, but they don't seem to be happening...)
 
@@ -15,6 +15,7 @@
 - Grab some textures from reskin mods
   - Def. stonecutting
 - Reskin or tweak loom texture
+- Disable duplicate/bad gloomy stuff
 
 
 - Add appropriate mod checks to compat patches
@@ -37,6 +38,13 @@ LumberPoplar (207,174,129) 1.8
 LumberTeak (120,86,51) 2.5
 LumberWillow (239,194,113) 1.5
 LumberBamboo (248,218,158) 2.7 // no floor
+
+LumberAcacia (81,56,49)
+LumberCamellia (240,209,155)
+LumberCherryBlossom (198,127,49)
+LumberJapaneseMaple (245,214,168)
+LumberCoconut (177,136,90)
+
 
 	<TerrainDef ParentName="WoodFloorBase">
 		<defName>RGK_Terrain</defName>		

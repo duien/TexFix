@@ -289,4 +289,97 @@
 		</costList>
     <label>willow wood floor</label>
   </TerrainDef>
+
+
+  <!-- More Extra floors from Xtra Trees -->
+
+  <TerrainDef ParentName="WoodFloorHorizontalBase">
+    <defName>Floor_Wood_Horizontal_Acacia</defName>
+    <color>(81,56,49)</color>
+    <costList>
+			<LumberAcacia>3</LumberAcacia>
+		</costList>
+    <label>acacia wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorHorizontalBase">
+    <defName>Floor_Wood_Horizontal_Camellia</defName>
+    <color>(240,209,155)</color>
+    <costList>
+			<LumberCamellia>3</LumberCamellia>
+		</costList>
+    <label>camellia wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorHorizontalBase">
+    <defName>Floor_Wood_Horizontal_CherryBlossom</defName>
+    <color>(198,127,49)</color>
+    <costList>
+			<LumberCherryBlossom>3</LumberCherryBlossom>
+		</costList>
+    <label>cherry blossom wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorHorizontalBase">
+    <defName>Floor_Wood_Horizontal_JapaneseMaple</defName>
+    <color>(245,214,168)</color>
+    <costList>
+			<LumberJapaneseMaple>3</LumberJapaneseMaple>
+		</costList>
+    <label>japanese maple wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorHorizontalBase">
+    <defName>Floor_Wood_Horizontal_Coconut</defName>
+    <color>(177,136,90)</color>
+    <costList>
+			<LumberCoconut>3</LumberCoconut>
+		</costList>
+    <label>coconut wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorVerticalBase">
+    <defName>Floor_Wood_Vertical_Acacia</defName>
+    <color>(81,56,49)</color>
+    <costList>
+			<LumberAcacia>3</LumberAcacia>
+		</costList>
+    <label>acacia wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorVerticalBase">
+    <defName>Floor_Wood_Vertical_Camellia</defName>
+    <color>(240,209,155)</color>
+    <costList>
+			<LumberCamellia>3</LumberCamellia>
+		</costList>
+    <label>camellia wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorVerticalBase">
+    <defName>Floor_Wood_Vertical_CherryBlossom</defName>
+    <color>(198,127,49)</color>
+    <costList>
+			<LumberCherryBlossom>3</LumberCherryBlossom>
+		</costList>
+    <label>cherry blossom wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorVerticalBase">
+    <defName>Floor_Wood_Vertical_JapaneseMaple</defName>
+    <color>(245,214,168)</color>
+    <costList>
+			<LumberJapaneseMaple>3</LumberJapaneseMaple>
+		</costList>
+    <label>japanese maple wood floor</label>
+  </TerrainDef>
+
+  <TerrainDef ParentName="WoodFloorVerticalBase">
+    <defName>Floor_Wood_Vertical_Coconut</defName>
+    <color>(177,136,90)</color>
+    <costList>
+			<LumberCoconut>3</LumberCoconut>
+		</costList>
+    <label>coconut wood floor</label>
+  </TerrainDef>
 </Defs>
